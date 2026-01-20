@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "order": {
+        "id": 101,
+        "items": [
+            {
+                "product": "Laptop",
+                "quantity": 1
+            }
+        ]
+    }
+}
