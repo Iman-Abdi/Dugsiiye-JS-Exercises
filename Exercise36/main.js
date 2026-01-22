@@ -3,7 +3,7 @@ const colorDisplay = document.querySelector('#colorDisplay');
 const PickedColors = document.querySelector('#PickedColors');
 const clearButton = document.querySelector('#clearButton');
 
-Color.addEventListener('input', function() {
+Color.addEventListener('change', function() {
     colorDisplay.style.backgroundColor = Color.value;
 
     const newColor = document.createElement('p');
