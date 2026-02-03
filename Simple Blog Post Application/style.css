@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fcfafc;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-section{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+}
+
+.posts-section h2 {
+    margin-bottom: 10px;
+}
+
+.new-post-form input {
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.new-post-form textarea {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.new-post-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.All-Post {
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.All-Post h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.All-Post li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.All-Post .P-Title {
+    font-weight: bold;
+}
+
+.All-Post li p {
+    margin-bottom: 5px;
+}
+
+.All-Post li button {
+ padding: 8px;
+ border-radius: 5px;
+ border: 1px solid #333;
+}
+
+

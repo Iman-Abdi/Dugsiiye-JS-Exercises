@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog Post Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <h1>Simple Blog</h1>
+
+      <div class="posts-section">
+        <h2>Create a new Post</h2>
+        <form class="new-post-form">
+          <input type="text" id="Title" name="Title" placeholder="Post Title" /><br />
+          <input type="text" id="Image" name="Image" placeholder="Image URL (Optional)" /><br />
+          <textarea
+            name=""
+            id="Text"
+            name="Text"
+            placeholder="Write your post here..."
+          ></textarea
+          ><br />
+          <button type="submit" id="Button">Add Post</button>
+        </form>
+      </div>
+      <div class="All-Post">
+        <h2>All Posts</h2>
+        <div class="new-posts">
+          <!-- <li>
+            <p class="P-Title">Image Title</p>
+            <img src="https://images.unsplash.com/photo-1761839262867-af53d08b0eb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="">
+            <p>This is My Post</p>
+            <button>Edit</button>
+            <button>Delete</button>
+          </li> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
