@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.container{
+    background: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102,126,234,0.4);
+}
+
+
+textarea{
+    min-height: 80px;
+    resize: none;
+}
+
+button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #28a745; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #218838;
+}
+
+.tanslate{
+    margin-top: 15px;
+    padding: 10px;
+    min-height: 40px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    color: #333;
+}
